@@ -4,20 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+<p><strong>MetaDaTV</strong> is an ANR-funded project aiming at <strong>building a research community around metadata associated with TV productions</strong> (such as dramas, documentaries or TV films). 
+</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<p><strong>From the original idea to the actual distribution on TV, VOD and DVD</strong>, the production process and subsequent “life” of a TV program are divided into numerous stages, involving numerous actors (e.g. distribution, production, direction, screenwriting, casting, post-production or dubbing) and thus leading to the generation of <strong>a huge amount of heterogeneous metadata</strong>. However, <strong>only a few metadata eventually survive the tortuous production and distribution processes</strong>, making their integration difficult into novel TV-centric products.
+</p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p><strong>No existing structure gathers all the involved actors</strong> around a global vision of TV productions metadata. Even worse, screenwriters are not necessarily aware of how useful their work could be at the very end of the pipeline for second screen applications, for instance. Similarly, keeping track of both video rushes metadata and the full history of video editing stages could greatly enrich the final product. Therefore, <strong>researchers in multimedia try to reverse-engineer this production chain</strong> and sometimes even rely on metadata generated a posteriori by aficionados (e.g. fan transcripts) to automatically reconstruct what could have been available from the start.
+</p>
 
 </div>
